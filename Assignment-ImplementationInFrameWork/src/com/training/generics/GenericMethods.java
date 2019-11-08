@@ -3,6 +3,7 @@ package com.training.generics;
 import java.util.List;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.NoAlertPresentException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
@@ -81,4 +82,16 @@ public class GenericMethods {
 	public boolean checkSingleEntry(String locator, String type){
 		return getElementsAsList(locator, type).size() ==1;
 	}
+	public void isAlertPresent() 
+	{ 
+	    try 
+	    { 
+	        driver.switchTo().alert().accept();
+	    }   // try 
+	    catch (NoAlertPresentException Ex) 
+	    { 
+	    	System.out.println("No Unexpected Alert");
+	    }   // catch 
+	}   // isAlertPresent()
+
 }

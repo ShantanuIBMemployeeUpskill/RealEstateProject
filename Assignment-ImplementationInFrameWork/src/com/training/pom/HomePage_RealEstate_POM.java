@@ -87,4 +87,6 @@ public class HomePage_RealEstate_POM {
 	{
 		BlogSection.click();
 	}
+
+
 }

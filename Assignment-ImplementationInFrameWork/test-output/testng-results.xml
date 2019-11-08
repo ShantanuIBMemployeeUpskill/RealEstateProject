@@ -2,28 +2,28 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="38933" started-at="2019-11-05T10:39:32Z" finished-at="2019-11-05T10:40:11Z">
+  <suite name="Default suite" duration-ms="94300" started-at="2019-11-08T07:05:43Z" finished-at="2019-11-08T07:07:17Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="38933" started-at="2019-11-05T10:39:32Z" finished-at="2019-11-05T10:40:11Z">
-      <class name="com.training.sanity.tests.FifthTestCase">
-        <test-method status="PASS" signature="setUpBeforeClass()[pri:0, instance:com.training.sanity.tests.FifthTestCase@55f3ddb1]" name="setUpBeforeClass" is-config="true" duration-ms="12" started-at="2019-11-05T16:09:32Z" finished-at="2019-11-05T16:09:32Z">
+    <test name="Default test" duration-ms="94300" started-at="2019-11-08T07:05:43Z" finished-at="2019-11-08T07:07:17Z">
+      <class name="com.training.sanity.tests.TenthTestCase">
+        <test-method status="PASS" signature="setUpBeforeClass()[pri:0, instance:com.training.sanity.tests.TenthTestCase@55f3ddb1]" name="setUpBeforeClass" is-config="true" duration-ms="15" started-at="2019-11-08T12:35:43Z" finished-at="2019-11-08T12:35:43Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpBeforeClass -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.training.sanity.tests.FifthTestCase@55f3ddb1]" name="setUp" is-config="true" duration-ms="26002" started-at="2019-11-05T16:09:32Z" finished-at="2019-11-05T16:09:58Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.training.sanity.tests.TenthTestCase@55f3ddb1]" name="setUp" is-config="true" duration-ms="37993" started-at="2019-11-08T12:35:43Z" finished-at="2019-11-08T12:36:21Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="testCase5()[pri:0, instance:com.training.sanity.tests.FifthTestCase@55f3ddb1]" name="testCase5" duration-ms="9979" started-at="2019-11-05T16:09:58Z" finished-at="2019-11-05T16:10:08Z">
+        <test-method status="PASS" signature="testCase9()[pri:0, instance:com.training.sanity.tests.TenthTestCase@55f3ddb1]" name="testCase9" duration-ms="54203" started-at="2019-11-08T12:36:21Z" finished-at="2019-11-08T12:37:15Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testCase5 -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.training.sanity.tests.FifthTestCase@55f3ddb1]" name="tearDown" is-config="true" duration-ms="2915" started-at="2019-11-05T16:10:08Z" finished-at="2019-11-05T16:10:11Z">
+        </test-method> <!-- testCase9 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.training.sanity.tests.TenthTestCase@55f3ddb1]" name="tearDown" is-config="true" duration-ms="2049" started-at="2019-11-08T12:37:15Z" finished-at="2019-11-08T12:37:17Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.training.sanity.tests.FifthTestCase -->
+      </class> <!-- com.training.sanity.tests.TenthTestCase -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
